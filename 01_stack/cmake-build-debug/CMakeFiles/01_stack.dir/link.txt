@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/01_stack.dir/main.cpp.o CMakeFiles/01_stack.dir/CharStack.cpp.o CMakeFiles/01_stack.dir/CharStackArr.cpp.o  -o 01_stack 
