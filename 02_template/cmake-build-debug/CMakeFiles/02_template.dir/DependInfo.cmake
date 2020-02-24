@@ -4,9 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chiry/CLionProjects/01_stack/CharStack.cpp" "/home/chiry/CLionProjects/01_stack/cmake-build-debug/CMakeFiles/cpptest.dir/CharStack.cpp.o"
-  "/home/chiry/CLionProjects/01_stack/CharStackArr.cpp" "/home/chiry/CLionProjects/01_stack/cmake-build-debug/CMakeFiles/cpptest.dir/CharStackArr.cpp.o"
-  "/home/chiry/CLionProjects/01_stack/main.cpp" "/home/chiry/CLionProjects/01_stack/cmake-build-debug/CMakeFiles/cpptest.dir/main.cpp.o"
+  "/home/chiry/CLionProjects/cppstudy/02_template/main.cpp" "/home/chiry/CLionProjects/cppstudy/02_template/cmake-build-debug/CMakeFiles/02_template.dir/main.cpp.o"
+  "/home/chiry/CLionProjects/cppstudy/02_template/tools/tools.cpp" "/home/chiry/CLionProjects/cppstudy/02_template/cmake-build-debug/CMakeFiles/02_template.dir/tools/tools.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

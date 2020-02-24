@@ -48,10 +48,10 @@ RM = /snap/clion/103/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chiry/CLionProjects/cppstudy/01_stack
+CMAKE_SOURCE_DIR = /home/chiry/CLionProjects/cppstudy/02_template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug
+CMAKE_BINARY_DIR = /home/chiry/CLionProjects/cppstudy/02_template/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/CMakeFiles /home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chiry/CLionProjects/cppstudy/02_template/cmake-build-debug/CMakeFiles /home/chiry/CLionProjects/cppstudy/02_template/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chiry/CLionProjects/cppstudy/02_template/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,71 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 01_stack
+# Target rules for targets named 02_template
 
 # Build rule for target.
-01_stack: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 01_stack
-.PHONY : 01_stack
+02_template: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 02_template
+.PHONY : 02_template
 
 # fast build rule for target.
-01_stack/fast:
-	$(MAKE) -f CMakeFiles/01_stack.dir/build.make CMakeFiles/01_stack.dir/build
-.PHONY : 01_stack/fast
-
-CharStack.o: CharStack.cpp.o
-
-.PHONY : CharStack.o
-
-# target to build an object file
-CharStack.cpp.o:
-	$(MAKE) -f CMakeFiles/01_stack.dir/build.make CMakeFiles/01_stack.dir/CharStack.cpp.o
-.PHONY : CharStack.cpp.o
-
-CharStack.i: CharStack.cpp.i
-
-.PHONY : CharStack.i
-
-# target to preprocess a source file
-CharStack.cpp.i:
-	$(MAKE) -f CMakeFiles/01_stack.dir/build.make CMakeFiles/01_stack.dir/CharStack.cpp.i
-.PHONY : CharStack.cpp.i
-
-CharStack.s: CharStack.cpp.s
-
-.PHONY : CharStack.s
-
-# target to generate assembly for a file
-CharStack.cpp.s:
-	$(MAKE) -f CMakeFiles/01_stack.dir/build.make CMakeFiles/01_stack.dir/CharStack.cpp.s
-.PHONY : CharStack.cpp.s
-
-CharStackArr.o: CharStackArr.cpp.o
-
-.PHONY : CharStackArr.o
-
-# target to build an object file
-CharStackArr.cpp.o:
-	$(MAKE) -f CMakeFiles/01_stack.dir/build.make CMakeFiles/01_stack.dir/CharStackArr.cpp.o
-.PHONY : CharStackArr.cpp.o
-
-CharStackArr.i: CharStackArr.cpp.i
-
-.PHONY : CharStackArr.i
-
-# target to preprocess a source file
-CharStackArr.cpp.i:
-	$(MAKE) -f CMakeFiles/01_stack.dir/build.make CMakeFiles/01_stack.dir/CharStackArr.cpp.i
-.PHONY : CharStackArr.cpp.i
-
-CharStackArr.s: CharStackArr.cpp.s
-
-.PHONY : CharStackArr.s
-
-# target to generate assembly for a file
-CharStackArr.cpp.s:
-	$(MAKE) -f CMakeFiles/01_stack.dir/build.make CMakeFiles/01_stack.dir/CharStackArr.cpp.s
-.PHONY : CharStackArr.cpp.s
+02_template/fast:
+	$(MAKE) -f CMakeFiles/02_template.dir/build.make CMakeFiles/02_template.dir/build
+.PHONY : 02_template/fast
 
 main.o: main.cpp.o
 
@@ -183,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/01_stack.dir/build.make CMakeFiles/01_stack.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/02_template.dir/build.make CMakeFiles/02_template.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -192,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/01_stack.dir/build.make CMakeFiles/01_stack.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/02_template.dir/build.make CMakeFiles/02_template.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -201,8 +147,35 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/01_stack.dir/build.make CMakeFiles/01_stack.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/02_template.dir/build.make CMakeFiles/02_template.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+tools/tools.o: tools/tools.cpp.o
+
+.PHONY : tools/tools.o
+
+# target to build an object file
+tools/tools.cpp.o:
+	$(MAKE) -f CMakeFiles/02_template.dir/build.make CMakeFiles/02_template.dir/tools/tools.cpp.o
+.PHONY : tools/tools.cpp.o
+
+tools/tools.i: tools/tools.cpp.i
+
+.PHONY : tools/tools.i
+
+# target to preprocess a source file
+tools/tools.cpp.i:
+	$(MAKE) -f CMakeFiles/02_template.dir/build.make CMakeFiles/02_template.dir/tools/tools.cpp.i
+.PHONY : tools/tools.cpp.i
+
+tools/tools.s: tools/tools.cpp.s
+
+.PHONY : tools/tools.s
+
+# target to generate assembly for a file
+tools/tools.cpp.s:
+	$(MAKE) -f CMakeFiles/02_template.dir/build.make CMakeFiles/02_template.dir/tools/tools.cpp.s
+.PHONY : tools/tools.cpp.s
 
 # Help Target
 help:
@@ -211,17 +184,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... 01_stack"
+	@echo "... 02_template"
 	@echo "... edit_cache"
-	@echo "... CharStack.o"
-	@echo "... CharStack.i"
-	@echo "... CharStack.s"
-	@echo "... CharStackArr.o"
-	@echo "... CharStackArr.i"
-	@echo "... CharStackArr.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tools/tools.o"
+	@echo "... tools/tools.i"
+	@echo "... tools/tools.s"
 .PHONY : help
 
 

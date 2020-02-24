@@ -1,3 +1,3 @@
-/home/chiry/CLionProjects/01_stack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/chiry/CLionProjects/01_stack/cmake-build-debug/CMakeFiles/01_stack.dir
-/home/chiry/CLionProjects/01_stack/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/CMakeFiles/01_stack.dir
+/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/CMakeFiles/edit_cache.dir

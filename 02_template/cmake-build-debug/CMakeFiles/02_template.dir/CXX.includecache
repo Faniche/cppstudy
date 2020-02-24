@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chiry/CLionProjects/cppstudy/02_template/Stack/ArrStack.h
+
+/home/chiry/CLionProjects/cppstudy/02_template/Stack/ListStack.h
+iostream
+-
+
+/home/chiry/CLionProjects/cppstudy/02_template/main.cpp
+iostream
+-
+Stack/ArrStack.h
+/home/chiry/CLionProjects/cppstudy/02_template/Stack/ArrStack.h
+Stack/ListStack.h
+/home/chiry/CLionProjects/cppstudy/02_template/Stack/ListStack.h
+tools/tools.h
+/home/chiry/CLionProjects/cppstudy/02_template/tools/tools.h
+
+/home/chiry/CLionProjects/cppstudy/02_template/tools/tools.h
+

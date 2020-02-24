@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/chiry/CLionProjects/01_stack/cmake-build-debug"/>
+				<Option working_dir="/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/chiry/CLionProjects/01_stack/cmake-build-debug"/>
+				<Option working_dir="/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="01_stack">
-				<Option output="/home/chiry/CLionProjects/01_stack/cmake-build-debug/01_stack" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/chiry/CLionProjects/01_stack/cmake-build-debug"/>
+				<Option output="/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/01_stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 01_stack"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 01_stack"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="01_stack/fast">
-				<Option output="/home/chiry/CLionProjects/01_stack/cmake-build-debug/01_stack" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/chiry/CLionProjects/01_stack/cmake-build-debug"/>
+				<Option output="/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/01_stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,39 +67,39 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 01_stack/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 01_stack/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/chiry/CLionProjects/01_stack/cmake-build-debug"/>
+				<Option working_dir="/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chiry/CLionProjects/cppstudy/01_stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/chiry/CLionProjects/01_stack/CharStack.cpp">
+		<Unit filename="/home/chiry/CLionProjects/cppstudy/01_stack/CharStack.cpp">
 			<Option target="01_stack"/>
 		</Unit>
-		<Unit filename="/home/chiry/CLionProjects/01_stack/CharStack.h">
+		<Unit filename="/home/chiry/CLionProjects/cppstudy/01_stack/CharStack.h">
 			<Option target="01_stack"/>
 		</Unit>
-		<Unit filename="/home/chiry/CLionProjects/01_stack/CharStackArr.cpp">
+		<Unit filename="/home/chiry/CLionProjects/cppstudy/01_stack/CharStackArr.cpp">
 			<Option target="01_stack"/>
 		</Unit>
-		<Unit filename="/home/chiry/CLionProjects/01_stack/CharStackArr.h">
+		<Unit filename="/home/chiry/CLionProjects/cppstudy/01_stack/CharStackArr.h">
 			<Option target="01_stack"/>
 		</Unit>
-		<Unit filename="/home/chiry/CLionProjects/01_stack/main.cpp">
+		<Unit filename="/home/chiry/CLionProjects/cppstudy/01_stack/main.cpp">
 			<Option target="01_stack"/>
 		</Unit>
-		<Unit filename="/home/chiry/CLionProjects/01_stack/CMakeLists.txt">
+		<Unit filename="/home/chiry/CLionProjects/cppstudy/01_stack/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

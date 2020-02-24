@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/cpptest.dir/main.cpp.o CMakeFiles/cpptest.dir/CharStack.cpp.o CMakeFiles/cpptest.dir/CharStackArr.cpp.o  -o cpptest 
