@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chiry/CLionProjects/cppstudy/03_queue/main.cpp
+iostream
+-
+tools/tools.h
+/home/chiry/CLionProjects/cppstudy/03_queue/tools/tools.h
+queue/ArrQueue.h
+/home/chiry/CLionProjects/cppstudy/03_queue/queue/ArrQueue.h
+queue/ListQueue.h
+/home/chiry/CLionProjects/cppstudy/03_queue/queue/ListQueue.h
+
+/home/chiry/CLionProjects/cppstudy/03_queue/queue/ArrQueue.h
+iostream
+-
+
+/home/chiry/CLionProjects/cppstudy/03_queue/queue/ListQueue.h
+iostream
+-
+
+/home/chiry/CLionProjects/cppstudy/03_queue/tools/tools.h
+
