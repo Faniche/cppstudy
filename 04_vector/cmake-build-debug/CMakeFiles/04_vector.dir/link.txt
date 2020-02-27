@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/04_vector.dir/main.cpp.o CMakeFiles/04_vector.dir/tools/tools.cpp.o  -o 04_vector 
