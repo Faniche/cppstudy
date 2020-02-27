@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/05_map.dir/main.cpp.o CMakeFiles/05_map.dir/tools/tools.cpp.o  -o 05_map 

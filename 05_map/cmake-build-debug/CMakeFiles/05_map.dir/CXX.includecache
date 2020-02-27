@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chiry/CLionProjects/cppstudy/05_map/main.cpp
+iostream
+-
+tools/tools.h
+/home/chiry/CLionProjects/cppstudy/05_map/tools/tools.h
+map/SimpleMap.h
+/home/chiry/CLionProjects/cppstudy/05_map/map/SimpleMap.h
+
+/home/chiry/CLionProjects/cppstudy/05_map/map/SimpleMap.h
+vector
+-
+
+/home/chiry/CLionProjects/cppstudy/05_map/tools/tools.h
+
